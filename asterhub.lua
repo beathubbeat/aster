@@ -5799,12 +5799,18 @@ end
 -- { ["Bloodfruit"] = autoDiscoverItemID("Bloodfruit") } can end up empty if every
 -- discovery returns nil (UI/ItemIDS not ready yet), which makes the Heal Fruit
 -- dropdown list blank. Build from explicit names so keys always exist; resolve IDs later.
+
+
+
+-- Add New Fruit Here
 ALL_HEAL_FRUIT_NAMES = ALL_HEAL_FRUIT_NAMES or {
     "Apple", "Banana", "Barley", "Berry", "Bloodfruit", "Bluefruit", "Blossom",
     "Carrot", "Cloudberry", "Coconut", "Corn", "Cooked Meat", "Frostfruit",
     "Jelly", "Lemon", "Mango", "Oddberry", "Orange", "Prickly Pear", "Pumpkin",
     "Strangefruit", "Strawberry", "Sunfruit", "Watermelon", "Petrified Berry",
 }
+
+-- Add New Fruit Here
 
 PLANT_FRUIT_LIST = {
     "Frostfruit", "Mango", "Watermelon", "Bloodfruit", "Bluefruit", "Lemon", "Coconut", "Jelly",
@@ -5972,7 +5978,7 @@ function updateVisualNodes()
         end
     end
 end
-
+-- Add New Fruit Here
 local validHarvestablesCache = {
     "Bloodfruit", "Bluefruit", "Lemon", "Coconut", "Jelly", "Banana", "Orange", 
     "Oddberry", "Berry", "Strangefruit", "Strawberry", "Sunfruit", "Pumpkin", 
