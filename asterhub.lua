@@ -5803,13 +5803,13 @@ ALL_HEAL_FRUIT_NAMES = ALL_HEAL_FRUIT_NAMES or {
     "Apple", "Banana", "Barley", "Berry", "Bloodfruit", "Bluefruit", "Blossom",
     "Carrot", "Cloudberry", "Coconut", "Corn", "Cooked Meat", "Frostfruit",
     "Jelly", "Lemon", "Mango", "Oddberry", "Orange", "Prickly Pear", "Pumpkin",
-    "Strangefruit", "Strawberry", "Sunfruit", "Watermelon",
+    "Strangefruit", "Strawberry", "Sunfruit", "Watermelon", "Petrified Berry",
 }
 
 PLANT_FRUIT_LIST = {
     "Frostfruit", "Mango", "Watermelon", "Bloodfruit", "Bluefruit", "Lemon", "Coconut", "Jelly",
     "Banana", "Orange", "Oddberry", "Berry", "Strangefruit", "Strawberry", "Sunfruit", "Pumpkin",
-    "Prickly Pear", "Apple", "Barley", "Cloudberry", "Carrot", "Corn", "Blossom",
+    "Prickly Pear", "Apple", "Barley", "Cloudberry", "Carrot", "Corn", "Blossom", "Petrified Berry",
 }
 fruittoitemid = {}
 for _, fruitName in ipairs(ALL_HEAL_FRUIT_NAMES) do
@@ -5977,7 +5977,7 @@ local validHarvestablesCache = {
     "Bloodfruit", "Bluefruit", "Lemon", "Coconut", "Jelly", "Banana", "Orange", 
     "Oddberry", "Berry", "Strangefruit", "Strawberry", "Sunfruit", "Pumpkin", 
     "Prickly Pear", "Pear Cacti", "Apple", "Barley", "Cloudberry", "Carrot", "Corn", "Blossom",
-    "Watermelon", "Mango", "Frostfruit"
+    "Watermelon", "Mango", "Frostfruit", "Petrified Berry",
 }
 local validHarvestablesSet = {}
 for _, name in ipairs(validHarvestablesCache) do
